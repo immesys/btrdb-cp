@@ -2,7 +2,7 @@
 
 This is a utility for copying BTrDB streams (or parts of streams) from one collection to another, potentially on a different server.
 
-The utility will copy streams in parallel, but you should do more than about 15 at once.
+The utility will copy streams in parallel, but you shouldn't do more than about 15 at once.
 
 To start, create a config file that looks like this:
 
