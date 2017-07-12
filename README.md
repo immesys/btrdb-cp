@@ -9,8 +9,8 @@ To start, create a config file that looks like this:
 ```yaml
 fromserver: my.source.server:4410
 toserver: my.dest.server:4410
-starttime: 2006-01-02T15:04:05Z07:00
-endtime: 2007-01-02T15:04:05Z07:00
+starttime: 2006-01-02T15:04:05+07:00
+endtime: 2007-01-02T15:04:05+07:00
 abortifexists: true
 streams:
   - srccollection: my/collection
