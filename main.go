@@ -248,10 +248,6 @@ func main() {
 						fmt.Printf("got error %v\n", err)
 					}
 					buf = buf[:0]
-					err = v4stream.Flush(context.Background())
-					if err != nil {
-						fmt.Printf("got error %v\n", err)
-					}
 				}
 				bars[idx].Increment()
 			}
